@@ -1,0 +1,22 @@
+---
+manufacturer: Nokia
+model: 7750 SR-7s
+slug: nokia-7750-sr7s
+part_number: 3HE18033AA
+u_height: 13 
+is_full_depth: true
+module-bays:
+  - name: slot1
+    position: '1'
+  - name: slot2
+    position: '2'
+  - name: slot3
+    position: '3'
+  - name: slot4
+    position: '4'
+  - name: slot5
+    position: '5'
+  - name: slot6
+    position: '6'
+  - name: slot7
+    position: '7'
