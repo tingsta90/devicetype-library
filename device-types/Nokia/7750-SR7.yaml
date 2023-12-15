@@ -1,0 +1,25 @@
+---
+manufacturer: Nokia
+model: 7750 SR-7
+slug: nokia-7750-sr7
+part_number: 3HE18033AA
+u_height: 8 
+is_full_depth: true
+comments: '[Nokia SR7 - Specifications](https://onestore.nokia.com/asset/164728?_ga=2.178872423.2129161486.1702291445-1292027537.1702291445)'
+weight: 7.5
+weight_unit: kg
+module-bays:
+  - name: slot1
+    position: '1'
+  - name: slot2
+    position: '2'
+  - name: slot3
+    position: '3'
+  - name: slot4
+    position: '4'
+  - name: slot5
+    position: '5'
+  - name: slotA
+    position: '6'
+  - name: slotB
+    position: '7'
