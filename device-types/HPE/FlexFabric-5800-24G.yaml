@@ -1,25 +1,26 @@
 ---
 manufacturer: HPE
-model: HP 5120-24G-PoE+ EI
-slug: hpe-hp-5120-24g-poep-ei
-part_number: JG236A
+model: FlexFabric 5800-24G with 1 Interface Slots
+slug: hpe-flexfabric-5800-24g-1slot
+part_number: JC100B
 u_height: 1
 is_full_depth: false
-comments: '[HPE 5120 EI Switch Series - Specifications](https://support.hpe.com/hpesc/public/docDisplay?docId=emr_na-c00778577)'
-weight: 7.5
+comments: '[HPE FlexFabric 5800 Switch Series](https://www.hpe.com/psnow/doc/c04111584.pdf?jumpid=in_lit-psnow-getpdf)'
+weight: 6
 weight_unit: kg
 module-bays:
-  - name: PSU1
-    position: '1'
-  - name: PSU2
-    position: '2'
   - name: port expansion module slot1
     position: slot1
-  - name: port expansion module slot2
-    position: slot2
 console-ports:
-  - name: Console
+  - name: console
     type: rj-45
+  - name: console usb
+    type: usb-a
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+    allocated_draw: 128
+    maximum_draw: 185
 interfaces:
   - name: M-GigabitEthernet0/0/0
     type: 1000base-t
@@ -72,11 +73,11 @@ interfaces:
     type: 1000base-t
   - name: GigabitEthernet1/0/24
     type: 1000base-t
-  - name: GigabitEthernet1/0/25
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/0/26
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/0/27
-    type: 1000base-x-sfp
-  - name: GigabitEthernet1/0/28
-    type: 1000base-x-sfp
+  - name: Ten-GigabitEthernet1/0/25
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/26
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/27
+    type: 10gbase-x-sfpp
+  - name: Ten-GigabitEthernet1/0/28
+    type: 10gbase-x-sfpp
