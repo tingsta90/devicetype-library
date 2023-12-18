@@ -5,20 +5,25 @@ slug: hpe-flexfabric-5920af-24xg
 part_number: JG296A
 u_height: 1
 is_full_depth: true
+comments: '[HPE FlexFabric 5700 Switch Series - Specification](https://support.hpe.com/hpesc/public/docDisplay?docId=c04400247)'
+weight: 10
+weight_unit: kg
 console-ports:
   - name: console
     type: rj-45
-power-ports:
+  - name: usb
+    type: usb-a
+module-bays:
   - name: PSU1
-    type: iec-60320-c14
-    allocated_draw: 343
-    maximum_draw: 366
+    position: PSU1
   - name: PSU2
-    type: iec-60320-c14
-    allocated_draw: 343
-    maximum_draw: 366
+    position: PSU2
+  - name: Fan1
+    position: Fan1
+  - name: Fan2
+    position: Fan2
 interfaces:
-  - name: M-GigabitEthernet0/0/0
+  - name: Management
     type: 1000base-t
     mgmt_only: true
   - name: Ten-GigabitEthernet1/0/1
