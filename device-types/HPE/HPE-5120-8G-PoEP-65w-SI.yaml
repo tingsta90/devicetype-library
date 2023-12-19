@@ -16,22 +16,22 @@ power-ports:
     type: iec-60320-c14
     maximum_draw: 93
 interfaces:
-  - name: GigabitEthernet 1/0/1
+  - name: GigabitEthernet1/0/1
     type: 1000base-t
-  - name: GigabitEthernet 1/0/2
+  - name: GigabitEthernet1/0/2
     type: 1000base-t
-  - name: GigabitEthernet 1/0/3
+  - name: GigabitEthernet1/0/3
     type: 1000base-t
-  - name: GigabitEthernet 1/0/4
+  - name: GigabitEthernet1/0/4
     type: 1000base-t
-  - name: GigabitEthernet 1/0/5
+  - name: GigabitEthernet1/0/5
     type: 1000base-t
-  - name: GigabitEthernet 1/0/6
+  - name: GigabitEthernet1/0/6
     type: 1000base-t
-  - name: GigabitEthernet 1/0/7
+  - name: GigabitEthernet1/0/7
     type: 1000base-t
-  - name: GigabitEthernet 1/0/8
+  - name: GigabitEthernet1/0/8
     type: 1000base-t
-  - name: GigabitEthernet 1/0/9
+  - name: GigabitEthernet1/0/9
     type: 1000base-x-sfp
     
