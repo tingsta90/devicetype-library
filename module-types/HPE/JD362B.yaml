@@ -2,7 +2,7 @@
 manufacturer: HPE
 model: X361 150W AC Power Supply
 part_number: JD362B
-comments: X361 150W AC Power Supply
+comments: 'To: 5130 5500 5800'
 power-ports:
   - name: Power {module}
     type: iec-60320-c14

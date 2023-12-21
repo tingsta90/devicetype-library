@@ -2,7 +2,7 @@
 manufacturer: HPE
 model: A58x0AF 300W AC Power Supply
 part_number: JG900A
-comments: HPE A58x0AF 300W AC Power Supply
+comments: 'To: 5700'
 power-ports:
   - name: PS{module}
     type: iec-60320-c14

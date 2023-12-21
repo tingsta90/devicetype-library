@@ -2,7 +2,7 @@
 manufacturer: HPE
 model: A58x0AF 650W AC Power Supply
 part_number: JC680A
-comments: HP A58x0AF 650W AC Power Supply
+comments: 'To: 5900 5920'
 power-ports:
   - name: PS{module}
     type: iec-60320-c16

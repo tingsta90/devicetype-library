@@ -22,7 +22,7 @@ console-ports:
     type: rj-45
 interfaces:
   - name: M-GigabitEthernet0/0/0
-    type: 1000base-x-sfp
+    type: 1000base-t
     mgmt_only: true
   - name: GigabitEthernet1/0/1
     type: 1000base-x-sfp

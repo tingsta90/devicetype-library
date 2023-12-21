@@ -1,0 +1,10 @@
+---
+manufacturer: HPE
+model: 5800 2-port 10GbE SFP+ Module
+part_number: JC092A
+comments: 'To: 5800'
+interfaces:
+  - name: 'Ten-GigabitEthernet{module}/1'
+    type: 10gbase-x-sfpp
+  - name: 'Ten-GigabitEthernet{module}/2'
+    type: 10gbase-x-sfpp

@@ -1,0 +1,14 @@
+---
+manufacturer: HPE
+model: 5800 4-port 10GbE SFP+ Module
+part_number: JC091A
+comments: 'To: 5800'
+interfaces:
+  - name: 'Ten-GigabitEthernet{module}/1'
+    type: 10gbase-x-sfpp
+  - name: 'Ten-GigabitEthernet{module}/2'
+    type: 10gbase-x-sfpp
+  - name: 'Ten-GigabitEthernet{module}/3'
+    type: 10gbase-x-sfpp
+  - name: 'Ten-GigabitEthernet{module}/4'
+    type: 10gbase-x-sfpp
