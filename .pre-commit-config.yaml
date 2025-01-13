@@ -1,8 +1,7 @@
 ---
-files: ^(device-types|module-types)/
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.5.0
+    rev: v5.0.0
     hooks:
       - id: trailing-whitespace
       - id: end-of-file-fixer
@@ -14,11 +13,15 @@ repos:
       - id: yamlfmt
         args: [--mapping, '2', --sequence, '4', --offset, '2']
   - repo: https://github.com/adrienverge/yamllint.git
-    rev: v1.32.0
+    rev: v1.35.1
     hooks:
       - id: yamllint
         name: Lint YAML files
         args: [--format, parsable, --strict]
+  - repo: https://github.com/DavidAnson/markdownlint-cli2
+    rev: v0.14.0
+    hooks:
+      - id: markdownlint-cli2
   - repo: local
     hooks:
       - id: pytest
