@@ -1,0 +1,85 @@
+---
+manufacturer: IBM
+model: FlashSystem 5300
+slug: ibm-flashsystem-5300
+description: ''
+default_platform: null
+part_number: 4662-7H2
+u_height: 1.0 
+is_full_depth: true
+subdevice_role: parent
+airflow: front-to-rear
+weight: 19.5
+weight_unit: kg
+comments: ''
+front_image: false
+rear_image: false
+power-ports:
+- name: PSU1
+  type: iec-60320-c14
+  maximum_draw: 1950
+  allocated_draw: 750
+  label: ''
+  description: ''
+- name: PSU2
+  type: iec-60320-c14
+  maximum_draw: 1950
+  allocated_draw: 750
+  label: ''
+  description: ''
+device-bays:
+- name: node1
+  label: Left Node Canister
+  description: ''
+- name: node2
+  label: Right Node Canister
+  description: ''
+interfaces:
+- name: node1/0/1
+  type: 25gbase-x-sfp28
+  label: '2'
+  enabled: true
+  mgmt_only: false
+  description: 'onboard physical port 1 - 10/25G ISCSI'
+- name: node1/0/2
+  type: 25gbase-x-sfp28
+  label: '3'
+  enabled: true
+  mgmt_only: false
+  description: 'onboard physical port 2 - 10/25G ISCSI'
+- name: node1/0/3
+  type: 1000base-t
+  label: '1'
+  enabled: true
+  mgmt_only: true
+  description: 'onboard physical port 3 - MGMT'
+- name: node1/0/4
+  type: 1000base-t
+  label: 'T'
+  enabled: true
+  mgmt_only: true
+  description: 'onboard physical port 4 - Technician Port'
+- name: node2/0/1
+  type: 25gbase-x-sfp28
+  label: '2'
+  enabled: true
+  mgmt_only: false
+  description: 'onboard physical port 1 - 10/25G ISCSI'
+- name: node2/0/2
+  type: 25gbase-x-sfp28
+  label: '3'
+  enabled: true
+  mgmt_only: false
+  description: 'onboard physical port 2 - 10/25G ISCSI'
+- name: node2/0/3
+  type: 1000base-t
+  label: '1'
+  enabled: true
+  mgmt_only: true
+  description: 'onboard physical port 3 - MGMT'
+- name: node2/0/4
+  type: 1000base-t
+  label: 'T'
+  enabled: true
+  mgmt_only: true
+  description: 'onboard physical port 4 - Technician Port'

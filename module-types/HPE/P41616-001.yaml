@@ -1,0 +1,19 @@
+---
+manufacturer: HPE
+model: P08458-B21
+part_number: P08458-B21
+comments: '[HPE ProLiant DL380 G10 Server QuickSpecs](https://www.hpe.com/psnow/doc/PSN1012325624WWEN.pdf)'
+description: Intel E810-XXVDA4 Ethernet 10/25Gb 4-port SFP28 Adapter for HPE (P08458-B21)
+interfaces:
+  - name: Ethernet/{module}/1
+    type: 25gbase-x-sfp28
+    mgmt_only: false
+  - name: Ethernet/{module}/2
+    type: 25gbase-x-sfp28
+    mgmt_only: false
+  - name: Ethernet/{module}/3
+    type: 25gbase-x-sfp28
+    mgmt_only: false
+  - name: Ethernet/{module}/4
+    type: 25gbase-x-sfp28
+    mgmt_only: false
